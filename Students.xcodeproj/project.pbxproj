@@ -60,9 +60,10 @@
 		9D59B906211812F9002FB7CD /* Students */ = {
 			isa = PBXGroup;
 			children = (
-				9D59B907211812F9002FB7CD /* AppDelegate.swift */,
 				9D59B92221181364002FB7CD /* Model */,
+				BB24C3F22416A090002F0178 /* Views */,
 				CE1629E022B7F67700BB5CA1 /* View Controllers */,
+				BB24C3F32416A0F8002F0178 /* Controllers */,
 				9D59B91921181300002FB7CD /* Resources */,
 			);
 			path = Students;
@@ -71,7 +72,7 @@
 		9D59B91921181300002FB7CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D59B90B211812FA002FB7CD /* Main.storyboard */,
+				9D59B907211812F9002FB7CD /* AppDelegate.swift */,
 				9D59B90E211812FA002FB7CD /* Assets.xcassets */,
 				9D59B910211812FA002FB7CD /* LaunchScreen.storyboard */,
 				9D59B913211812FA002FB7CD /* Info.plist */,
@@ -84,9 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				9D59B9232118136C002FB7CD /* Student.swift */,
-				CE1629E122B7F82900BB5CA1 /* StudentController.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BB24C3F22416A090002F0178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D59B90B211812FA002FB7CD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB24C3F32416A0F8002F0178 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1629E122B7F82900BB5CA1 /* StudentController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		CE1629E022B7F67700BB5CA1 /* View Controllers */ = {
